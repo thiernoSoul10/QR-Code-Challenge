@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+    font-size: inherit;
+}
+img {
+    width: 280px;
+    border-radius: 10px;
+}
+body {
+    background-color: #c3d0de;
+    font-family: Outfit;
+}
+.container {
+    background-color: white;
+    margin-top: 80px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 320px;
+    height: 480px;
+    box-shadow: 2px 3px 7px 0 rgb(0, 0, 0, 0.35) ;
+}
+.text {
+    padding: 10 px 15px;
+    text-align: center;
+    color: #111d30;
+}
+.text p {
+    color: #7b879d;
+}
+#page {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    text-align: center;
+}
+h3 {
+    font-size: 1.3rem;
+}
